@@ -26,21 +26,11 @@ https://mstr-api.onrender.com
 
 https://mstr-api.onrender.com/?f=profitpct&a=10&avg=300
 
-## KWGT Formel
-
-$wg("mstr-api.onrender.com/?f=price", txt)$
-
 ## Stack
 
 - Python / Flask
 - Deployed auf Render.com (kostenlos)
 - Daten von Yahoo Finance
-
-## Hinweis
-
-Render.com schläft nach 15 Minuten Inaktivität ein.
-Erster Aufruf kann 30-60 Sekunden dauern bis der Server aufwacht.
-Danach läuft er normal schnell.
 
 ## KWGT Formeln
 
@@ -78,3 +68,6 @@ $wg("mstr-api.onrender.com/?f=profitpct&a=10&avg=300", txt)$
 ## Hinweis
 10 und 300 in den Portfolio-Formeln mit
 eigenen Werten ersetzen!
+Render.com schläft nach 15 Minuten Inaktivität ein.
+Erster Aufruf kann 30-60 Sekunden dauern bis der Server aufwacht.
+Danach läuft er normal schnell.
