@@ -75,11 +75,6 @@ $wg("mstr-api.onrender.com/?f=profitpct&a=10&avg=300", txt)$
 - Titelgrösse: 14
 - Änderungsgrösse: 14
 
-## Render.com
-- Schläft nach 15 Min Inaktivität ein
-- Erster Aufruf kann 60 Sek dauern
-- Lösung: Widget alle 10 Min aktualisieren (Pro)
-
 ## Hinweis
 10 und 300 in den Portfolio-Formeln mit
 eigenen Werten ersetzen!
