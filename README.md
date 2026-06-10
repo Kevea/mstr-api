@@ -41,3 +41,45 @@ $wg("mstr-api.onrender.com/?f=price", txt)$
 Render.com schläft nach 15 Minuten Inaktivität ein.
 Erster Aufruf kann 30-60 Sekunden dauern bis der Server aufwacht.
 Danach läuft er normal schnell.
+
+## KWGT Formeln
+
+### Kurs & Tagesveränderung
+Preis:
+$wg("mstr-api.onrender.com/?f=price", txt)$
+
+Tagesveränderung %:
+$wg("mstr-api.onrender.com/?f=pct", txt)$
+
+Tagesveränderung USD:
+$wg("mstr-api.onrender.com/?f=change", txt)$
+
+### Portfolio (a=Anzahl, avg=Einstand)
+Portfoliowert:
+$wg("mstr-api.onrender.com/?f=wert&a=10&avg=300", txt)$
+
+Gewinn/Verlust USD:
+$wg("mstr-api.onrender.com/?f=profit&a=10&avg=300", txt)$
+
+Gewinn/Verlust %:
+$wg("mstr-api.onrender.com/?f=profitpct&a=10&avg=300", txt)$
+
+## KWGT Einstellungen
+- Hintergrundfarbe: #0a0b0f
+- Eckenradius: 20
+- Titelfarbe MSTR: #f7931a
+- Preisfarbe: #ffffff
+- Änderung positiv: #00e676
+- Änderung negativ: #ff4444
+- Preisgrösse: 42
+- Titelgrösse: 14
+- Änderungsgrösse: 14
+
+## Render.com
+- Schläft nach 15 Min Inaktivität ein
+- Erster Aufruf kann 60 Sek dauern
+- Lösung: Widget alle 10 Min aktualisieren (Pro)
+
+## Hinweis
+10 und 300 in den Portfolio-Formeln mit
+eigenen Werten ersetzen!
