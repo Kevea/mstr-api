@@ -3,6 +3,9 @@
 Eine einfache API die live MSTR (MicroStrategy) Aktienkursdaten liefert.
 Gebaut für die Nutzung mit KWGT Widget Maker auf Android.
 
+## Live API
+https://mstr-api.onrender.com
+
 ## Endpunkte
 
 | Parameter | Beschreibung | Beispiel |
@@ -18,3 +21,23 @@ Gebaut für die Nutzung mit KWGT Widget Maker auf Android.
 
 - `a` = Anzahl Aktien
 - `avg` = Durchschnittlicher Einstandskurs in USD
+
+## Beispiel
+
+https://mstr-api.onrender.com/?f=profitpct&a=10&avg=300
+
+## KWGT Formel
+
+$wg("mstr-api.onrender.com/?f=price", txt)$
+
+## Stack
+
+- Python / Flask
+- Deployed auf Render.com (kostenlos)
+- Daten von Yahoo Finance
+
+## Hinweis
+
+Render.com schläft nach 15 Minuten Inaktivität ein.
+Erster Aufruf kann 30-60 Sekunden dauern bis der Server aufwacht.
+Danach läuft er normal schnell.
