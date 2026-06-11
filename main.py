@@ -43,7 +43,7 @@ def index():
     avg    = float(request.args.get('avg', 0))
     try:
         if is_premarket():
-            price, prev = get_alpha_price()
+            prev, price = get_alpha_price()
             source = 'ALPHA'
         else:
             price, prev = get_yahoo_price()
