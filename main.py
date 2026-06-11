@@ -30,11 +30,11 @@ def get_alpha_price():
         f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSTR&apikey={ALPHA_KEY}'
     )
     data = r.json().get('Global Quote', {})
-    price = float(data.get('05. price', 0))
-    prev  = float(data.get('08. previous close', 0))
-    if price == 0 or prev == 0:
+    regular   = float(data.get('05. price', 0))
+    premarket = float(data.get('08. previous close', 0))
+    if regular == 0 or premarket == 0:
         return get_yahoo_price()
-    return prev, price
+    return premarket, regular
 
 @app.route('/')
 def index():
@@ -58,14 +58,4 @@ def index():
         if field == 'debug':     return f"source={source} price={price} prev={prev}"
         if field == 'price':     return f"{price:.2f}"
         if field == 'pct':       return f"{'+' if pct>=0 else ''}{pct:.2f}%"
-        if field == 'change':    return f"{'+' if change>=0 else ''}{change:.2f}"
-        if field == 'wert':      return f"{wert:.2f}"
-        if field == 'profit':    return f"{'+' if profit_usd>=0 else ''}{profit_usd:.2f}"
-        if field == 'profitpct': return f"{'+' if profit_pct>=0 else ''}{profit_pct:.2f}%"
-        if field == 'state':     return 'PRE' if is_premarket() else 'REGULAR'
-        return f"{price:.2f}"
-    except Exception as e:
-        return str(e)
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=10000)
+        if field
