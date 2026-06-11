@@ -3,42 +3,52 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('/')
-def index():
-    field = request.args.get('f', 'price')
-    anzahl = float(request.args.get('a', 0))
-    avg = float(request.args.get('avg', 0))
+def get_price():
+    # Versuche Nasdaq API für Pre/Post Market
     try:
+        r = requests.get(
+            'https://api.nasdaq.com/api/quote/MSTR/info?assetclass=stocks',
+            headers={
+                'User-Agent': 'Mozilla/5.0',
+                'Accept': 'application/json'
+            }
+        )
+        data = r.json()['data']
+        state = data.get('marketStatus', 'Closed')
+        regular = float(data['primaryData']['lastSalePrice'].replace('$','').replace(',',''))
+        
+        pre  = data.get('secondaryData', {})
+        pre_price = pre.get('lastSalePrice', '$0').replace('$','').replace(',','')
+        pre_price = float(pre_price) if pre_price else 0
+        
+        if 'Pre' in state and pre_price > 0:
+            return pre_price, regular, regular, state
+        return regular, regular, regular, state
+    except:
+        # Fallback Yahoo
         r = requests.get(
             'https://query1.finance.yahoo.com/v8/finance/chart/MSTR',
             headers={'User-Agent': 'Mozilla/5.0'}
         )
         meta = r.json()['chart']['result'][0]['meta']
-        
-        regular    = meta.get('regularMarketPrice', 0)
-        prev       = meta.get('chartPreviousClose', regular)
-        pre        = meta.get('preMarketPrice', 0)
-        post       = meta.get('postMarketPrice', 0)
-        state      = meta.get('marketState', 'CLOSED')
+        regular = meta.get('regularMarketPrice', 0)
+        prev = meta.get('chartPreviousClose', regular)
+        return regular, prev, regular, 'REGULAR'
 
-        # Debug — zeigt alle Werte
-        if field == 'debug':
-            return f"state={state} regular={regular} pre={pre} post={post}"
-
-        # Auto-switch
-        if state == 'PRE' and pre > 0:
-            price = pre
-        elif state in ('POST','POSTPOST') and post > 0:
-            price = post
-        else:
-            price = regular
-
+@app.route('/')
+def index():
+    field  = request.args.get('f', 'price')
+    anzahl = float(request.args.get('a', 0))
+    avg    = float(request.args.get('avg', 0))
+    try:
+        price, prev, regular, state = get_price()
         change     = price - prev
         pct        = (change / prev) * 100
         profit_usd = (price - avg) * anzahl
         profit_pct = ((price - avg) / avg * 100) if avg > 0 else 0
         wert       = price * anzahl
 
+        if field == 'debug':     return f"state={state} price={price} prev={prev}"
         if field == 'price':     return f"{price:.2f}"
         if field == 'pct':       return f"{'+' if pct>=0 else ''}{pct:.2f}%"
         if field == 'change':    return f"{'+' if change>=0 else ''}{change:.2f}"
