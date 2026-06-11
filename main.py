@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-POLYGON_KEY = "9MFlcEDobsWitkYr4FlO8n3ekO7QMs7P"
+POLYGON_KEY = "Qks8aSvb0H7o7xu5pM1hj3MXOTf2ef1G"
 SWISS_TZ = pytz.timezone('Europe/Zurich')
 
 def is_premarket():
