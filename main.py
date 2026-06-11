@@ -10,21 +10,10 @@ SWISS_TZ = pytz.timezone('Europe/Zurich')
 
 def is_premarket():
     now = datetime.now(SWISS_TZ)
-    # Nur Montag-Freitag
     if now.weekday() >= 5:
         return False
     t = now.hour * 60 + now.minute
-    # 06:00 - 15:29 Schweizer Zeit
     return 360 <= t < 929
-
-def get_alpha_price():
-    r = requests.get(
-        f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSTR&apikey={ALPHA_KEY}'
-    )
-    data = r.json().get('Global Quote', {})
-    price = float(data.get('05. price', 0))
-    prev  = float(data.get('08. previous close', price))
-    return price, prev
 
 def get_yahoo_price():
     r = requests.get(
@@ -36,6 +25,17 @@ def get_yahoo_price():
     prev  = meta.get('chartPreviousClose', price)
     return price, prev
 
+def get_alpha_price():
+    r = requests.get(
+        f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSTR&apikey={ALPHA_KEY}'
+    )
+    data = r.json().get('Global Quote', {})
+    price = float(data.get('05. price', 0))
+    prev  = float(data.get('08. previous close', 0))
+    if price == 0 or prev == 0:
+        return get_yahoo_price()
+    return prev, price
+
 @app.route('/')
 def index():
     field  = request.args.get('f', 'price')
@@ -43,7 +43,7 @@ def index():
     avg    = float(request.args.get('avg', 0))
     try:
         if is_premarket():
-            prev, price = get_alpha_price()
+            price, prev = get_alpha_price()
             source = 'ALPHA'
         else:
             price, prev = get_yahoo_price()
