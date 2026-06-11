@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-ALPHA_KEY = "DU2HMH0YWV62D3QP"
+POLYGON_KEY = "9MFlcEDobsWitkYr4FlO8n3ekO7QMs7P"
 SWISS_TZ = pytz.timezone('Europe/Zurich')
 
 def is_premarket():
@@ -25,16 +25,15 @@ def get_yahoo_price():
     prev  = meta.get('chartPreviousClose', price)
     return price, prev
 
-def get_alpha_price():
+def get_polygon_price():
     r = requests.get(
-        f'https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=MSTR&apikey={ALPHA_KEY}'
+        f'https://api.polygon.io/v2/last/trade/MSTR?apiKey={POLYGON_KEY}'
     )
-    data = r.json().get('Global Quote', {})
-    regular   = float(data.get('05. price', 0))
-    premarket = float(data.get('08. previous close', 0))
-    if regular == 0 or premarket == 0:
-        return get_yahoo_price()
-    return premarket, regular
+    data = r.json()
+    price = float(data['results']['p'])
+    # Vortag via Yahoo
+    _, prev = get_yahoo_price()
+    return price, prev
 
 @app.route('/')
 def index():
@@ -43,8 +42,8 @@ def index():
     avg    = float(request.args.get('avg', 0))
     try:
         if is_premarket():
-            price, prev = get_alpha_price()
-            source = 'ALPHA'
+            price, prev = get_polygon_price()
+            source = 'POLYGON'
         else:
             price, prev = get_yahoo_price()
             source = 'YAHOO'
@@ -58,4 +57,18 @@ def index():
         if field == 'debug':     return f"source={source} price={price} prev={prev}"
         if field == 'price':     return f"{price:.2f}"
         if field == 'pct':       return f"{'+' if pct>=0 else ''}{pct:.2f}%"
-        if field
+        if field == 'change':    return f"{'+' if change>=0 else ''}{change:.2f}"
+        if field == 'wert':      return f"{wert:.2f}"
+        if field == 'profit':    return f"{'+' if profit_usd>=0 else ''}{profit_usd:.2f}"
+        if field == 'profitpct': return f"{'+' if profit_pct>=0 else ''}{profit_pct:.2f}%"
+        if field == 'state':     return 'PRE' if is_premarket() else 'REGULAR'
+        return f"{price:.2f}"
+    except Exception as e:
+        try:
+            price, prev = get_yahoo_price()
+            return f"{price:.2f}"
+        except:
+            return "—"
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=10000)
