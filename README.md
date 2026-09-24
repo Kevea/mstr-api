@@ -25,6 +25,7 @@ Jeder andere gültige Yahoo-Ticker funktioniert ebenfalls direkt, z. B. `s=AAPL`
 | Parameter | Beschreibung | Beispiel |
 |-----------|-------------|---------|
 | `f=price` | Aktueller Kurs | `/?f=price&s=PLTR` |
+| `f=pricecur` | Kurs **mit Währung** | `/?f=pricecur&s=PLTR` → `191.79 USD` |
 | `f=pct` | Tagesveränderung in % | `/?f=pct&s=PLTR` |
 | `f=change` | Tagesveränderung absolut | `/?f=change&s=PLTR` |
 | `f=wert` | Positionswert | `/?f=wert&s=PLTR&a=10` |
@@ -48,6 +49,7 @@ bei `cur=CHF` also der Einstandskurs in CHF.
 
 ```
 Kurs:              $wg("mstr-api.onrender.com/?f=price&s=PLTR", txt)$
+Kurs mit Währung:  $wg("mstr-api.onrender.com/?f=pricecur&s=PLTR", txt)$
 Tagesveränderung:  $wg("mstr-api.onrender.com/?f=pct&s=PLTR", txt)$
 Gewinn/Verlust %:  $wg("mstr-api.onrender.com/?f=profitpct&s=PLTR&a=10&avg=150", txt)$
 ETF in CHF:        $wg("mstr-api.onrender.com/?f=price&s=EUROPE&cur=CHF", txt)$

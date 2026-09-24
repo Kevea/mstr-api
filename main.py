@@ -86,6 +86,7 @@ def index():
 
         if field == 'debug':     return f'{symbol} state={state} price={price:.4f} prev={prev:.4f} cur={target_cur or cur}'
         if field == 'price':     return f'{price:.2f}'
+        if field == 'pricecur':  return f'{price:.2f} {target_cur or cur}'
         if field == 'pct':       return f"{'+' if pct>=0 else ''}{pct:.2f}%"
         if field == 'change':    return f"{'+' if change>=0 else ''}{change:.2f}"
         if field == 'wert':      return f'{wert:.2f}'
