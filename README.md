@@ -74,9 +74,7 @@ EUROPE   97.73 CHF   +8.59%
 **`f=table`** padded die Spalten mit Leerzeichen — das steht nur dann bündig
 untereinander, wenn das Textfeld eine **Monospace-Schrift** benutzt.
 
-**`f=list`** liefert nur eine Spalte, eine Zeile pro Position. Drei solcher
-Felder nebeneinander ergeben saubere Spalten **unabhängig von der Schriftart** —
-der empfohlene Weg, wenn keine Monospace-Schrift zur Verfügung steht:
+**`f=list`** liefert nur eine Spalte, eine Zeile pro Position:
 
 ```
 $wg("mstr-api.onrender.com/?f=list&col=name&p=…", txt)$
@@ -91,6 +89,13 @@ Zeilen zu verlieren.
 
 Kursdaten werden 60 Sekunden zwischengespeichert, damit mehrere Spalten-Felder
 nicht jedes Mal dieselben Abfragen bei Yahoo auslösen.
+
+> **In KWGT nicht für Spalten brauchbar:** KWGT rendert Zeilenumbrüche, die aus
+> einer abgerufenen Antwort stammen, nicht als Umbrüche — die Werte landen alle
+> auf einer Zeile. Nur Umbrüche, die im Textfeld selbst stehen, bleiben erhalten.
+> Für eine Spalte im Widget deshalb fünf einzelne `$wg(...)$`-Zeilen in ein Feld
+> schreiben, statt `f=list` zu verwenden. `f=list` und `f=table` bleiben für
+> Clients nützlich, die mehrzeiligen Text darstellen.
 
 ## KWGT Formeln
 

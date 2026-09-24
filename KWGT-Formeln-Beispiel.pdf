@@ -60,7 +60,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 183.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 6 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
 << /Length 810 >>
@@ -77,58 +77,49 @@ BT /mono 8.3 Tf 0 0 0 rg 53 698.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 8 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
-<< /Length 1822 >>
+<< /Length 2967 >>
 stream
-BT /bold 18 Tf 0.06 0.07 0.1 rg 45 553.28 Td (Empfohlen: drei Spalten-Felder) Tj ET
-BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 531.28 Td (Drei Textfelder nebeneinander, je eine Formel. Jedes Feld ist eine Spalte und damit) Tj ET
-BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 519.28 Td (sauber ausgerichtet - auch ohne Monospace-Schrift. Zusammen nur drei Anfragen.) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 501.28 Td (So sieht es im Widget aus:) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 486.28 Td (MSTR     162.20 USD    +62.20%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 474.28 Td (PLTR     191.79 USD    +27.86%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 462.28 Td (SPACEX   148.36 USD     +5.97%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 450.28 Td (WORLD    145.98 USD     +4.27%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 438.28 Td (EUROPE    97.81 CHF     +8.68%) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 412.28 Td (Feld 1 - Namen) Tj ET
-BT /mono 8.5 Tf 0 0 0 rg 53 398.28 Td ($wg\("mstr-api.onrender.com/?f=list&col=name&p=MSTR:2:100,PLTR:5:150,SPACEX:3:140,WORLD:4:140,EUROPE:3:90:CHF", txt\)$) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 377.78 Td (Feld 2 - Kurse) Tj ET
-BT /mono 8.5 Tf 0 0 0 rg 53 363.78 Td ($wg\("mstr-api.onrender.com/?f=list&col=pricecur&p=MSTR:2:100,PLTR:5:150,SPACEX:3:140,WORLD:4:140,EUROPE:3:90:CHF", txt\)$) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 343.28 Td (Feld 3 - Gewinn / Verlust) Tj ET
-BT /mono 8.5 Tf 0 0 0 rg 53 329.28 Td ($wg\("mstr-api.onrender.com/?f=list&col=profitpct&p=MSTR:2:100,PLTR:5:150,SPACEX:3:140,WORLD:4:140,EUROPE:3:90:CHF", txt\)$) Tj ET
-0.82 0.82 0.85 RG 0.7 w 45 304.78 m 796.89 304.78 l S
-BT /reg 9 Tf 0.42 0.42 0.46 rg 45 290.78 Td (Statt Gewinn/Verlust die Tagesveränderung: col=profitpct durch col=pct ersetzen.) Tj ET
-BT /reg 9 Tf 0.42 0.42 0.46 rg 45 278.78 Td (Weitere Spalten: price, change, wert, profit, cur.) Tj ET
+BT /bold 18 Tf 0.06 0.07 0.1 rg 45 799.89 Td (Sammel-Formeln - drei Spalten) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 777.89 Td (Je ein Block = ein KWGT-Textfeld. Kompletten Block markieren, kopieren, in das) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 765.89 Td (Textfeld einfügen. Die fünf Zeilen stehen dann untereinander, weil die Umbrüche) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 753.89 Td (im Textfeld selbst stehen. Drei solche Felder nebeneinander ergeben die Spalten.) Tj ET
+BT /bold 10 Tf 0.85 0.42 0.05 rg 45 735.89 Td (So sieht es im Widget aus:) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 721.89 Td (MSTR     162.20 USD    +62.20%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 709.89 Td (PLTR     191.79 USD    +27.86%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 697.89 Td (SPACEX   148.36 USD     +5.97%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 685.89 Td (WORLD    145.98 USD     +4.27%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 673.89 Td (EUROPE    97.81 CHF     +8.68%) Tj ET
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 645.89 Td (Feld 1 - Kurse) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 630.89 Td ($wg\("mstr-api.onrender.com/?f=pricecur&s=MSTR", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 618.89 Td ($wg\("mstr-api.onrender.com/?f=pricecur&s=PLTR", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 606.89 Td ($wg\("mstr-api.onrender.com/?f=pricecur&s=SPACEX", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 594.89 Td ($wg\("mstr-api.onrender.com/?f=pricecur&s=WORLD", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 582.89 Td ($wg\("mstr-api.onrender.com/?f=pricecur&s=EUROPE&cur=CHF", txt\)$) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 560.89 m 550.28 560.89 l S
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 544.89 Td (Feld 2 - Gewinn / Verlust) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 529.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&s=MSTR&a=2&avg=100.00", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 517.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&s=PLTR&a=5&avg=150.00", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 505.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&s=SPACEX&a=3&avg=140.00", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 493.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&s=WORLD&a=4&avg=140.00", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 481.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&s=EUROPE&a=3&avg=90.00&cur=CHF", txt\)$) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 459.89 m 550.28 459.89 l S
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 443.89 Td (Feld 3 - Tagesveränderung \(optional\)) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 428.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=MSTR", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 416.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=PLTR", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 404.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=SPACEX", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 392.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=WORLD", txt\)$) Tj ET
+BT /mono 8.3 Tf 0 0 0 rg 53 380.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=EUROPE&cur=CHF", txt\)$) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 358.89 m 550.28 358.89 l S
 endstream
 endobj
 10 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
 endobj
 11 0 obj
-<< /Length 1341 >>
-stream
-BT /bold 18 Tf 0.06 0.07 0.1 rg 45 553.28 Td (Alternative: alles in einem Feld) Tj ET
-BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 531.28 Td (Eine einzige Formel, eine einzige Anfrage - die Spalten richtet der Server aus.) Tj ET
-BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 519.28 Td (Achtung: das steht nur bündig, wenn das Textfeld eine Monospace-Schrift benutzt.) Tj ET
-BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 507.28 Td (Ohne Monospace stattdessen die drei Spalten-Felder von der vorherigen Seite nehmen.) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 489.28 Td (Ausgabe:) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 474.28 Td (MSTR     162.20 USD   +62.20%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 462.28 Td (PLTR     191.79 USD   +27.86%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 450.28 Td (SPACEX   148.36 USD    +5.97%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 438.28 Td (WORLD    145.98 USD    +4.27%) Tj ET
-BT /mono 9 Tf 0 0 0 rg 53 426.28 Td (EUROPE    97.81 CHF    +8.68%) Tj ET
-BT /bold 10 Tf 0.85 0.42 0.05 rg 45 400.28 Td (Code dafür:) Tj ET
-BT /mono 8.5 Tf 0 0 0 rg 53 385.28 Td ($wg\("mstr-api.onrender.com/?f=table&p=MSTR:2:100,PLTR:5:150,SPACEX:3:140,WORLD:4:140,EUROPE:3:90:CHF", txt\)$) Tj ET
-0.82 0.82 0.85 RG 0.7 w 45 360.78 m 796.89 360.78 l S
-BT /reg 9 Tf 0.42 0.42 0.46 rg 45 346.78 Td (Andere Spalten wählen mit cols, z. B. cols=name,pricecur,pct für die Tagesveränderung.) Tj ET
-endstream
-endobj
-12 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
-endobj
-13 0 obj
-<< /Length 1742 >>
+<< /Length 2304 >>
 stream
 BT /bold 12 Tf 0.06 0.07 0.1 rg 45 799.89 Td (Hinweise) Tj ET
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 783.89 Td (In avg gehört immer der Preis pro Stück. Wer nur den Gesamtbetrag einer) Tj ET
@@ -142,25 +133,30 @@ BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 692.89 Td (Gewinn/Verlust in Prozent hängt nur
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 679.89 Td (Stückzahl. Für den Betrag in Währung statt Prozent: f=profitpct durch) Tj ET
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 666.89 Td (f=profit ersetzen.) Tj ET
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 653.89 Td () Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 640.89 Td (Jede $wg\(...\)$-Formel ist eine eigene Anfrage. Die Tabellenseite macht also) Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 627.89 Td (zehn Anfragen pro Aktualisierung. Das funktioniert, ist aber träge, wenn der) Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 614.89 Td (Dienst gerade geschlafen hat.) Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 601.89 Td () Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 588.89 Td (Render schläft nach 15 Minuten ohne Anfrage ein. Der erste Aufruf danach) Tj ET
-BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 575.89 Td (kann 30-60 Sekunden dauern, bis eine Zahl erscheint.) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 640.89 Td (KWGT rendert Zeilenumbrüche, die aus einer abgerufenen Antwort kommen, NICHT) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 627.89 Td (als Umbrüche - alles landet auf einer Zeile. Nur die Umbrüche, die im Textfeld) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 614.89 Td (selbst stehen, bleiben erhalten. Deshalb fünf einzelne $wg\(...\)$-Zeilen pro) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 601.89 Td (Feld und nicht ein Serveraufruf, der die ganze Spalte liefert.) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 588.89 Td () Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 575.89 Td (Jede $wg\(...\)$-Formel ist eine eigene Anfrage. Drei volle Spalten sind also) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 562.89 Td (fünfzehn Anfragen pro Aktualisierung. Das funktioniert, ist aber träge, wenn) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 549.89 Td (der Dienst gerade geschlafen hat.) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 536.89 Td () Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 523.89 Td (Render schläft nach 15 Minuten ohne Anfrage ein. Der erste Aufruf danach) Tj ET
+BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 510.89 Td (kann 30-60 Sekunden dauern, bis eine Zahl erscheint.) Tj ET
 endstream
 endobj
+12 0 obj
+<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
 14 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 13 0 R >>
-endobj
-15 0 obj
-<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 5 >>
-endobj
-16 0 obj
-<< /Type /Catalog /Pages 15 0 R >>
+<< /Type /Catalog /Pages 13 0 R >>
 endobj
 xref
-0 17
+0 15
 0000000000 65535 f 
 0000000015 00000 n 
 0000000112 00000 n 
@@ -171,15 +167,13 @@ xref
 0000004345 00000 n 
 0000005206 00000 n 
 0000005377 00000 n 
-0000007251 00000 n 
-0000007423 00000 n 
-0000008817 00000 n 
-0000008990 00000 n 
-0000010785 00000 n 
-0000010958 00000 n 
-0000011043 00000 n 
+0000008396 00000 n 
+0000008568 00000 n 
+0000010925 00000 n 
+0000011098 00000 n 
+0000011176 00000 n 
 trailer
-<< /Size 17 /Root 16 0 R >>
+<< /Size 15 /Root 14 0 R >>
 startxref
-11094
+11227
 %%EOF
