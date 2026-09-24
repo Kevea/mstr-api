@@ -60,7 +60,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 183.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 6 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
 << /Length 810 >>
@@ -77,7 +77,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 698.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 8 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
 << /Length 2967 >>
@@ -116,9 +116,40 @@ BT /mono 8.3 Tf 0 0 0 rg 53 380.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=EURO
 endstream
 endobj
 10 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
 endobj
 11 0 obj
+<< /Length 3168 >>
+stream
+BT /bold 18 Tf 0.06 0.07 0.1 rg 45 553.28 Td (Komplette Tabelle in einem Feld) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 531.28 Td (Kürzel, Kurs und dein Gewinn/Verlust je Zeile - alles in ein einziges Textfeld.) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 519.28 Td (Die Umbrüche zwischen den Zeilen kommen beim Einfügen mit und bleiben erhalten.) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 507.28 Td (Jede Zeile muss beim Kopieren eine Zeile bleiben - deshalb ist diese Seite quer.) Tj ET
+BT /bold 10 Tf 0.85 0.42 0.05 rg 45 489.28 Td (So sieht es im Widget aus:) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 474.28 Td (MSTR     162.20 USD   +62.20%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 462.28 Td (PLTR     191.79 USD   +27.86%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 450.28 Td (SPACEX   148.36 USD    +5.97%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 438.28 Td (WORLD    145.98 USD    +4.27%) Tj ET
+BT /mono 9 Tf 0 0 0 rg 53 426.28 Td (EUROPE    97.81 CHF    +8.68%) Tj ET
+BT /bold 10 Tf 0.85 0.42 0.05 rg 45 400.28 Td (Code dafür:) Tj ET
+BT /mono 8.016230936819172 Tf 0 0 0 rg 53 385.28 Td (MSTR     $wg\("mstr-api.onrender.com/?f=pricecur&s=MSTR", txt\)$   $wg\("mstr-api.onrender.com/?f=profitpct&s=MSTR&a=2&avg=100.00", txt\)$) Tj ET
+BT /mono 8.016230936819172 Tf 0 0 0 rg 53 371.2637690631808 Td (PLTR     $wg\("mstr-api.onrender.com/?f=pricecur&s=PLTR", txt\)$   $wg\("mstr-api.onrender.com/?f=profitpct&s=PLTR&a=5&avg=150.00", txt\)$) Tj ET
+BT /mono 8.016230936819172 Tf 0 0 0 rg 53 357.24753812636163 Td (SPACEX   $wg\("mstr-api.onrender.com/?f=pricecur&s=SPACEX", txt\)$   $wg\("mstr-api.onrender.com/?f=profitpct&s=SPACEX&a=3&avg=140.00", txt\)$) Tj ET
+BT /mono 8.016230936819172 Tf 0 0 0 rg 53 343.23130718954246 Td (WORLD    $wg\("mstr-api.onrender.com/?f=pricecur&s=WORLD", txt\)$   $wg\("mstr-api.onrender.com/?f=profitpct&s=WORLD&a=4&avg=140.00", txt\)$) Tj ET
+BT /mono 8.016230936819172 Tf 0 0 0 rg 53 329.2150762527233 Td (EUROPE   $wg\("mstr-api.onrender.com/?f=pricecur&s=EUROPE&cur=CHF", txt\)$   $wg\("mstr-api.onrender.com/?f=profitpct&s=EUROPE&a=3&avg=90.00&cur=CHF", txt\)$) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 301.1988453159041 m 796.89 301.1988453159041 l S
+BT /bold 10 Tf 0.85 0.42 0.05 rg 45 285.1988453159041 Td (Variante mit Tagesveränderung statt Gewinn/Verlust:) Tj ET
+BT /mono 8.5 Tf 0 0 0 rg 53 270.1988453159041 Td (MSTR     $wg\("mstr-api.onrender.com/?f=pricecur&s=MSTR", txt\)$   $wg\("mstr-api.onrender.com/?f=pct&s=MSTR", txt\)$) Tj ET
+BT /mono 8.5 Tf 0 0 0 rg 53 255.69884531590412 Td (PLTR     $wg\("mstr-api.onrender.com/?f=pricecur&s=PLTR", txt\)$   $wg\("mstr-api.onrender.com/?f=pct&s=PLTR", txt\)$) Tj ET
+BT /mono 8.5 Tf 0 0 0 rg 53 241.19884531590412 Td (SPACEX   $wg\("mstr-api.onrender.com/?f=pricecur&s=SPACEX", txt\)$   $wg\("mstr-api.onrender.com/?f=pct&s=SPACEX", txt\)$) Tj ET
+BT /mono 8.5 Tf 0 0 0 rg 53 226.69884531590412 Td (WORLD    $wg\("mstr-api.onrender.com/?f=pricecur&s=WORLD", txt\)$   $wg\("mstr-api.onrender.com/?f=pct&s=WORLD", txt\)$) Tj ET
+BT /mono 8.5 Tf 0 0 0 rg 53 212.19884531590412 Td (EUROPE   $wg\("mstr-api.onrender.com/?f=pricecur&s=EUROPE&cur=CHF", txt\)$   $wg\("mstr-api.onrender.com/?f=pct&s=EUROPE&cur=CHF", txt\)$) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
 << /Length 2304 >>
 stream
 BT /bold 12 Tf 0.06 0.07 0.1 rg 45 799.89 Td (Hinweise) Tj ET
@@ -146,17 +177,17 @@ BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 523.89 Td (Render schläft nach 15 Minuten ohne
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 510.89 Td (kann 30-60 Sekunden dauern, bis eine Zahl erscheint.) Tj ET
 endstream
 endobj
-12 0 obj
-<< /Type /Page /Parent 13 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
-endobj
-13 0 obj
-<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
-endobj
 14 0 obj
-<< /Type /Catalog /Pages 13 0 R >>
+<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 5 >>
+endobj
+16 0 obj
+<< /Type /Catalog /Pages 15 0 R >>
 endobj
 xref
-0 15
+0 17
 0000000000 65535 f 
 0000000015 00000 n 
 0000000112 00000 n 
@@ -169,11 +200,13 @@ xref
 0000005377 00000 n 
 0000008396 00000 n 
 0000008568 00000 n 
-0000010925 00000 n 
-0000011098 00000 n 
-0000011176 00000 n 
+0000011789 00000 n 
+0000011962 00000 n 
+0000014319 00000 n 
+0000014492 00000 n 
+0000014577 00000 n 
 trailer
-<< /Size 15 /Root 14 0 R >>
+<< /Size 17 /Root 16 0 R >>
 startxref
-11227
+14628
 %%EOF
