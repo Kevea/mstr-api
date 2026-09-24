@@ -34,6 +34,8 @@ Jeder andere gültige Yahoo-Ticker funktioniert ebenfalls direkt, z. B. `s=AAPL`
 | `f=cur` | Währung des Kurses | `/?f=cur&s=EUROPE` |
 | `f=state` | Marktphase (US-Zeiten) | `/?f=state` |
 | `f=debug` | Alle Werte auf einmal | `/?f=debug&s=WORLD` |
+| `f=list` | **Eine Spalte für mehrere Positionen** | `/?f=list&col=pricecur&p=…` |
+| `f=table` | **Ganze Tabelle in einem Wert** | `/?f=table&p=…` |
 
 ## Parameter
 
@@ -41,9 +43,54 @@ Jeder andere gültige Yahoo-Ticker funktioniert ebenfalls direkt, z. B. `s=AAPL`
 - `a` = Anzahl Stück
 - `avg` = Durchschnittlicher Einstandskurs
 - `cur` = Zielwährung, rechnet den Kurs um (z. B. `cur=CHF`)
+- `p` = Mehrere Positionen für `f=list` / `f=table` (siehe unten)
+- `col` = Welche Spalte `f=list` ausgibt, Standard `pricecur`
+- `cols` = Welche Spalten `f=table` ausgibt, Standard `name,pricecur,profitpct`
 
 `avg` muss in derselben Währung wie der ausgegebene Kurs angegeben werden —
 bei `cur=CHF` also der Einstandskurs in CHF.
+
+## Mehrere Positionen auf einmal
+
+Statt pro Wert eine eigene Anfrage zu stellen, holt `f=list` bzw. `f=table`
+**alle Positionen in einer einzigen Anfrage**. Das Depot steht im Parameter `p`:
+
+```
+p=SYMBOL:ANZAHL:EINSTAND[:WÄHRUNG],SYMBOL:ANZAHL:EINSTAND[:WÄHRUNG],…
+```
+
+Beispiel (Beispielzahlen, kein echtes Depot):
+
+```
+/?f=table&p=MSTR:2:100,PLTR:5:150,EUROPE:3:90:CHF
+```
+
+```
+MSTR    162.20 USD  +62.20%
+PLTR    191.79 USD  +27.86%
+EUROPE   97.73 CHF   +8.59%
+```
+
+**`f=table`** padded die Spalten mit Leerzeichen — das steht nur dann bündig
+untereinander, wenn das Textfeld eine **Monospace-Schrift** benutzt.
+
+**`f=list`** liefert nur eine Spalte, eine Zeile pro Position. Drei solcher
+Felder nebeneinander ergeben saubere Spalten **unabhängig von der Schriftart** —
+der empfohlene Weg, wenn keine Monospace-Schrift zur Verfügung steht:
+
+```
+$wg("mstr-api.onrender.com/?f=list&col=name&p=…", txt)$
+$wg("mstr-api.onrender.com/?f=list&col=pricecur&p=…", txt)$
+$wg("mstr-api.onrender.com/?f=list&col=profitpct&p=…", txt)$
+```
+
+Als `col` bzw. in `cols` sind alle Feldnamen aus der Endpunkt-Tabelle erlaubt
+(`name`, `price`, `pricecur`, `pct`, `change`, `wert`, `profit`, `profitpct`, `cur`).
+Ein Symbol, das sich nicht abrufen lässt, erscheint als `—`, ohne die übrigen
+Zeilen zu verlieren.
+
+Kursdaten werden 60 Sekunden zwischengespeichert, damit mehrere Spalten-Felder
+nicht jedes Mal dieselben Abfragen bei Yahoo auslösen.
 
 ## KWGT Formeln
 
