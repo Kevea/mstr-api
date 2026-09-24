@@ -102,6 +102,13 @@ Gewinn/Verlust %:  $wg("mstr-api.onrender.com/?f=profitpct&s=PLTR&a=10&avg=150",
 ETF in CHF:        $wg("mstr-api.onrender.com/?f=price&s=EUROPE&cur=CHF", txt)$
 ```
 
+## Fertige Formelsammlung
+
+`KWGT-Formeln-Beispiel.pdf` im Repo enthält alle Formeln zum Kopieren —
+Einzelwerte pro Position, die drei Spalten-Felder und die Ein-Feld-Tabelle.
+Die dort eingetragenen Stückzahlen und Einstandskurse sind Beispielwerte,
+einfach durch die eigenen ersetzen.
+
 ## KWGT Design
 - Hintergrundfarbe: #0a0b0f
 - Eckenradius: 20
