@@ -115,12 +115,34 @@ Die dort eingetragenen Stückzahlen und Einstandskurse sind Beispielwerte,
 einfach durch die eigenen ersetzen.
 
 ## KWGT Design
-- Hintergrundfarbe: #0a0b0f
-- Eckenradius: 20
-- Titelfarbe MSTR: #f7931a
-- Preisfarbe: #ffffff
-- Preisgrösse: 42
-- Titelgrösse: 14
+
+Gemeinsam für beide Varianten: Eckenradius 20, Kursgrösse 42, Titelgrösse 14.
+
+### Dunkler Hintergrund
+- Hintergrund: `#0A0B0F`
+- Kurs: `#FFFFFF`
+- Titel / Akzent: `#F7931A`
+
+### Heller Hintergrund
+
+Die Farben des dunklen Themes lassen sich nicht übernehmen — `#F7931A` kommt
+auf hellem Grund nur auf 2.2:1 Kontrast, ein typisches App-Grün wie `#22C55E`
+auf 2.1:1. Lesbar wird es ab 4.5:1:
+
+| Element | Farbe | Kontrast auf `#F7F8FA` |
+|---|---|---|
+| Hintergrund | `#F7F8FA` | — |
+| Kurs (Hauptwert) | `#16181D` | 16.7:1 |
+| Kürzel, Nebentext | `#6B7280` | 4.6:1 |
+| Gewinn | `#15803D` | 4.7:1 |
+| Verlust | `#B91C1C` | 6.1:1 |
+| Akzent (Titel, Linie) | `#B45309` | 4.7:1 |
+| Trennlinien | `#E5E7EB` | — |
+
+Kein reines Weiss als Hintergrund — es blendet und lässt das Widget wie ein
+Loch in der Wallpaper wirken. Das Orange nur für Titel oder Linien verwenden,
+nicht für Zahlen. Die Vorzeichen stehen ohnehin im Wert, damit bleibt die
+Richtung auch bei Rot-Grün-Schwäche erkennbar.
 
 ## Stack
 - Python / Flask

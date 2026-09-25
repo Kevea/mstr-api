@@ -60,7 +60,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 183.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 6 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 5 0 R >>
 endobj
 7 0 obj
 << /Length 810 >>
@@ -77,7 +77,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 698.89 Td ($wg\("mstr-api.onrender.com/?f=profitpct&
 endstream
 endobj
 8 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 7 0 R >>
 endobj
 9 0 obj
 << /Length 2967 >>
@@ -116,7 +116,7 @@ BT /mono 8.3 Tf 0 0 0 rg 53 380.89 Td ($wg\("mstr-api.onrender.com/?f=pct&s=EURO
 endstream
 endobj
 10 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 9 0 R >>
 endobj
 11 0 obj
 << /Length 3168 >>
@@ -147,9 +147,89 @@ BT /mono 8.5 Tf 0 0 0 rg 53 212.19884531590412 Td (EUROPE   $wg\("mstr-api.onren
 endstream
 endobj
 12 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 841.89 595.28] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 11 0 R >>
 endobj
 13 0 obj
+<< /Length 5267 >>
+stream
+BT /bold 18 Tf 0.06 0.07 0.1 rg 45 799.89 Td (Farben für hellen Hintergrund) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 777.89 Td (Kontrastwerte nach WCAG gegen den Hintergrund #F7F8FA. Ab 4.5:1 gilt Text als) Tj ET
+BT /reg 9.5 Tf 0.42 0.42 0.46 rg 45 765.89 Td (gut lesbar - darunter wird es auf hellem Grund schnell anstrengend.) Tj ET
+0.969 0.973 0.980 rg 53 743.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 743.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 745.89 Td (#F7F8FA   Hintergrund) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 745.89 Td (        ) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 732.89 Td (leicht gebrochenes Weiss) Tj ET
+0.086 0.094 0.114 rg 53 715.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 715.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 717.89 Td (#16181D   Kurs \(Hauptwert\)) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 717.89 Td (  16.7:1) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 704.89 Td (fast schwarz) Tj ET
+0.420 0.447 0.502 rg 53 687.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 687.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 689.89 Td (#6B7280   Kürzel, Nebentext) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 689.89 Td (   4.6:1) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 676.89 Td (gedämpftes Grau) Tj ET
+0.082 0.502 0.239 rg 53 659.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 659.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 661.89 Td (#15803D   Gewinn) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 661.89 Td (   4.7:1) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 648.89 Td (dunkles Grün) Tj ET
+0.725 0.110 0.110 rg 53 631.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 631.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 633.89 Td (#B91C1C   Verlust) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 633.89 Td (   6.1:1) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 620.89 Td (dunkles Rot) Tj ET
+0.706 0.325 0.035 rg 53 603.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 603.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 605.89 Td (#B45309   Akzent \(Titel, Linie\)) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 605.89 Td (   4.7:1) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 592.89 Td (abgedunkeltes Orange) Tj ET
+0.898 0.906 0.922 rg 53 575.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 575.89 11 11 re S
+BT /bold 9.5 Tf 0.06 0.07 0.1 rg 71 577.89 Td (#E5E7EB   Trennlinien) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 498.28 577.89 Td (        ) Tj ET
+BT /reg 8.5 Tf 0.42 0.42 0.46 rg 71 564.89 Td (sehr helles Grau) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 543.89 m 550.28 543.89 l S
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 527.89 Td (Nicht verwenden auf hellem Grund) Tj ET
+BT /reg 9 Tf 0.42 0.42 0.46 rg 45 511.89 Td (Diese Töne stammen aus dem dunklen Theme und fallen auf Weiss durch:) Tj ET
+0.969 0.576 0.102 rg 53 494.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 494.89 11 11 re S
+BT /reg 9.5 Tf 0.06 0.07 0.1 rg 71 496.89 Td (#F7931A   bisheriges MSTR-Orange) Tj ET
+BT /bold 9 Tf 0.72 0.15 0.15 rg 498.28 496.89 Td (   2.2:1) Tj ET
+0.133 0.773 0.369 rg 53 479.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 479.89 11 11 re S
+BT /reg 9.5 Tf 0.06 0.07 0.1 rg 71 481.89 Td (#22C55E   typisches App-Grün) Tj ET
+BT /bold 9 Tf 0.72 0.15 0.15 rg 498.28 481.89 Td (   2.1:1) Tj ET
+0.937 0.267 0.267 rg 53 464.89 11 11 re f
+0.72 0.72 0.75 RG 0.5 w 53 464.89 11 11 re S
+BT /reg 9.5 Tf 0.06 0.07 0.1 rg 71 466.89 Td (#EF4444   typisches App-Rot) Tj ET
+BT /bold 9 Tf 0.72 0.15 0.15 rg 498.28 466.89 Td (   3.5:1) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 443.89 m 550.28 443.89 l S
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 427.89 Td (Worauf es ankommt) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 411.89 Td (Kein reines Weiss als Hintergrund. Es blendet auf dem Homescreen und lässt das) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 399.89 Td (Widget wie ein Loch in der Wallpaper wirken. Alternativ Weiss mit ~90% Deckkraft.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 387.89 Td () Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 375.89 Td (Grün und Rot deutlich abdunkeln - das ist der eigentliche Unterschied zum dunklen) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 363.89 Td (Theme. Dort funktionieren helle Signalfarben, auf Hell braucht es satte Töne.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 351.89 Td (Die Plus- und Minuszeichen stehen ohnehin im Wert, damit bleibt die Richtung) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 339.89 Td (auch bei Rot-Grün-Schwäche erkennbar.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 327.89 Td () Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 315.89 Td (Das Orange nur als Akzent für Titel oder eine dünne Linie, nicht für Zahlen.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 303.89 Td (Selbst abgedunkelt wirkt es unruhiger als neutrales Dunkelgrau.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 291.89 Td () Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 279.89 Td (Kürzel eine Stufe kleiner als den Kurs und in Grau - dann führt das Auge) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 267.89 Td (automatisch zuerst auf die Zahlen.) Tj ET
+0.82 0.82 0.85 RG 0.7 w 45 245.89 m 550.28 245.89 l S
+BT /bold 11 Tf 0.85 0.42 0.05 rg 45 229.89 Td (Unverändert übernehmen) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 213.89 Td (Eckenradius 20 · Kursgrösse 42 · Titelgrösse 14 - funktioniert hell wie dunkel.) Tj ET
+BT /reg 9 Tf 0.2 0.2 0.24 rg 45 199.89 Td (Dunkles Theme zum Vergleich: Hintergrund #0A0B0F, Kurs #FFFFFF, Titel #F7931A.) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
 << /Length 2304 >>
 stream
 BT /bold 12 Tf 0.06 0.07 0.1 rg 45 799.89 Td (Hinweise) Tj ET
@@ -177,17 +257,17 @@ BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 523.89 Td (Render schläft nach 15 Minuten ohne
 BT /reg 9.5 Tf 0.2 0.2 0.24 rg 45 510.89 Td (kann 30-60 Sekunden dauern, bis eine Zahl erscheint.) Tj ET
 endstream
 endobj
-14 0 obj
-<< /Type /Page /Parent 15 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 13 0 R >>
-endobj
-15 0 obj
-<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 5 >>
-endobj
 16 0 obj
-<< /Type /Catalog /Pages 15 0 R >>
+<< /Type /Page /Parent 17 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /reg 1 0 R /bold 2 0 R /mono 3 0 R /monob 4 0 R >> >> /Contents 15 0 R >>
+endobj
+17 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R] /Count 6 >>
+endobj
+18 0 obj
+<< /Type /Catalog /Pages 17 0 R >>
 endobj
 xref
-0 17
+0 19
 0000000000 65535 f 
 0000000015 00000 n 
 0000000112 00000 n 
@@ -202,11 +282,13 @@ xref
 0000008568 00000 n 
 0000011789 00000 n 
 0000011962 00000 n 
-0000014319 00000 n 
-0000014492 00000 n 
-0000014577 00000 n 
+0000017282 00000 n 
+0000017455 00000 n 
+0000019812 00000 n 
+0000019985 00000 n 
+0000020077 00000 n 
 trailer
-<< /Size 17 /Root 16 0 R >>
+<< /Size 19 /Root 18 0 R >>
 startxref
-14628
+20128
 %%EOF
